@@ -38,7 +38,6 @@ The goal of this project is to design and develop a responsive website for ALNBM
 * Use Bootstrap as a foundation to support a mobile-first approach, improve consistency, and ensure efficient development while maintaining a professional user experience.
   
 #### 1.05 Scope Plane_User Stories
-##### 1.05a Scope Plane_User Stories
 As a homeowner, I want to understand:
 * ALNBM's experience in the housing sector
 * Images of past completed projects
@@ -56,8 +55,10 @@ As a visitor, I want to understand:
 * Existing/ completed projects
 * Contact information to make enquiries
 
-##### 1.05b Scope Plane_client Stories
-* 
+As a User, I want to:
+* Receive the requested client's enquiries to the work email (info@alnbm.co.uk) along with name, contact details and email address.
+* Showcase range of work
+
 #### 1.06 Skeleton Plane_Design Choices
 #### 1.07 Surface Plane_Wireframes
 
