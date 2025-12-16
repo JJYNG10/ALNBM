@@ -60,6 +60,15 @@ As a User, I want to:
 * Showcase range of work
 
 #### 1.06 Skeleton Plane_Design Choices
+* Implement Bootstrap "container and row" as the foundation of the website
+* Navigation bar directing the visitor to
+  -  Logo
+  -  Home
+  -  Project
+  -  Guide
+  -  About us
+  -  Contact us
+  
 #### 1.07 Surface Plane_Wireframes
 
 ### 2. Features
