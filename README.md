@@ -79,7 +79,7 @@ As a User, I want to:
 ### 3. Technologies used
  
 | Technology used       | Function                    |
-| --------------------- |:---------------------------:|
+| --------------------- | --------------------------- |
 | HTML                  | Content structure           |
 | CSS                   | Layout and styling          |
 | Bootstrap             | Responsive components       |
