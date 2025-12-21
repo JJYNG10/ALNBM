@@ -70,12 +70,23 @@ As a User, I want to:
   -  Contact us
   
 #### 1.07 Surface Plane_Wireframes
+  - [Wireframe layout](https://balsamiq.cloud/skdt2qu/p6hlipu)
 
 ### 2. Features
-#### 2.01 Surface Plane_Existing Features 
-#### 2.02 Surface Plane_Features Left to Implement
+#### 2.01 Existing Features 
+#### 2.02 Features Left to Implement
 
 ### 3. Technologies used
+ 
+| Technology used       | Function                    |
+| --------------------- |:---------------------------:|
+| HTML                  | Content structure           |
+| CSS                   | Layout and styling          |
+| Bootstrap             | Responsive components       |
+| Google Font           | Typography                  |
+| Font Awesome          | Icons                       |
+| GitHub                | Record, backup & deployment |
+| GitHub Project        | Task Management             |
 
 ### 4. Testing
 
