@@ -73,8 +73,22 @@ As a User, I want to:
   - [Wireframe layout](https://balsamiq.cloud/skdt2qu/p6hlipu)
 
 ### 2. Features
-#### 2.01 Existing Features 
-#### 2.02 Features Left to Implement
+#### 2.01 HTML features 
+  - Web framework
+  - Search keyword
+  - Loop video
+    
+#### 2.02 Boostrap features 
+  - Break point
+  - Grid system
+  - Navs and tabs
+  - Buttons
+  - Cards
+  - Form
+    
+#### 2.02 CSS features 
+  - pop up success message
+  - colour and style
 
 ### 3. Technologies used
  
