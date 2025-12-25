@@ -3,8 +3,10 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #213042; /* Dark blue */
-    --secondary-color: #68C0D0; /* Light blue */ 
-    --third-color: white; /* Dark blue */    
+    --secondary-color: #68C0D0; /* Bright blue */ 
+    --pale-color-white: white; /* White */ 
+    --pale-color-grey: #E8E9EB; /* Grey */ 
+    --pale-color-blue: #e7f6ff; /* Pale blue */    
     --highlight-color:; /*  */
     --highlight-color-light: ; /*  */
 }
@@ -100,6 +102,35 @@ button {
     max-width: auto;
 }
 
+/* About Us */
+/* Header */
+.about-section {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.about-section h3 {
+    word-spacing: 8px;
+    line-height: 30px;
+}
+
+.focus-section {
+    background-color:var(--pale-color-blue) ;
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+    
+}
+
+.focus-section h3 {
+    word-spacing: 8px;
+    line-height: 30px;
+}
+
+#team { margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
 /* footer list */
 ul {
   list-style: none;      /* remove bullets */
@@ -133,7 +164,25 @@ li {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
     .logo {width:"150px"}
-    }
+    .about-section {
+    margin-top: 100px !important;
+    margin-bottom: 150px !important;}
+    
+    .about-section h3 {
+    word-spacing: 8px;
+    line-height: 40px;}
+
+    .focus-section {
+    background-color:var(--pale-color-blue) ;
+    margin-top: 100px !important;
+    margin-bottom: 150px !important;    
+}
+
+.focus-section h3 {
+    word-spacing: 8px;
+    line-height: 40px;}
+
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
