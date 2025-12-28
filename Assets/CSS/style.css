@@ -131,13 +131,33 @@ button {
 
 }
 
-/* interactive hover element */
+/* interactive card hover element */
 .card-transform {transition: transform 0.35s ease, box-shadow 0.35s ease;
   will-change: transform;}
 
 .card-transform:hover {transform: scale( 1.02);
 /*box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); (showdow when zoomed in) */
 }
+
+/* interactive text hover element */
+.text-transform {transition: transform 0.35s ease, box-shadow 0.35s ease;
+  will-change: transform;}
+
+.text-transform:hover {transform: scale( 1.10);
+/*box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); (showdow when zoomed in) */
+}
+
+.image-frame{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+img .image-frame{ 
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    }
 
 /* social media footer hr */
 footer {margin-top: 100px;}
