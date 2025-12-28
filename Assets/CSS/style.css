@@ -38,7 +38,7 @@ h1, h2{font-size: 40px;}
 .text-overlay {
     position: absolute;
     bottom: 15%;        
-    color: var(--third-color);   
+    color: var(--pale-color-white);   
     padding: 0px 20px;
 }
 
@@ -46,7 +46,7 @@ h1, h2{font-size: 40px;}
     display: flex;
     position: absolute;
     bottom: 10%;
-    color: var(--third-color);
+    color: var(--pale-color-white);
     padding-left: 50%;
     max-width: 80px;
     max-height: 80px;
@@ -55,7 +55,7 @@ h1, h2{font-size: 40px;}
 .scroll-indicator-text{
     position: absolute;
     bottom: 5%;
-    color: var(--third-color);
+    color: var(--pale-color-white);
     text-align: center;}
   
 /* Nav-Modal */
@@ -131,6 +131,17 @@ button {
 
 }
 
+/* interactive hover element */
+.card-transform {transition: transform 0.35s ease, box-shadow 0.35s ease;
+  will-change: transform;}
+
+.card-transform:hover {transform: scale( 1.02);
+/*box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12); (showdow when zoomed in) */
+}
+
+/* social media footer hr */
+footer {margin-top: 100px;}
+
 /* footer list */
 ul {
   list-style: none;      /* remove bullets */
@@ -143,10 +154,15 @@ li {
   padding-bottom: 10px;
 }
 
+.map-contact li {
+padding-bottom: 0;
+}
+
 /* social media footer hr */
 .socialmedia-footer-hr {
     margin-left: -15px;
     width: 100vw;}
+
 
 /* grid visualisation CSS for testing */
 /*  .container,
@@ -186,13 +202,13 @@ li {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-     .logo {width:"200px"}
+     .logo {width:200px;}
     }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { .logo {width:"250px"} 
+@media (min-width: 1200px) { .logo {width:250px;} 
    }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { .logo {width:"250px"}
+@media (min-width: 1400px) { .logo {width:250px}
    }
