@@ -11,14 +11,6 @@
     --highlight-color-light: ; /*  */
 }
 
-/* Font style */
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 /* Heading Font */
 h1 h2 h3 {color: var(--primary-font);}
 h1, h2{font-size: 60px;
