@@ -11,9 +11,62 @@
     --highlight-color-light: ; /*  */
 }
 
-h1 h2 h3 {color: var(--primary-font);}
-h1, h2{font-size: 40px;}
+/* Font style */
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
+/* Heading Font */
+h1 h2 h3 {color: var(--primary-font);}
+h1, h2{font-size: 60px;
+       font-family: "Shippori Antique B1", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+}
+  h3 { font-family: "Inter", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: <weight>;
+       font-style: normal;}
+
+.contact-section a {font-size: 15px !important;    
+                    font-family: "Shippori Antique B1", sans-serif !important;
+                    font-weight: 400 !important;
+                    font-style: normal !important;
+}
+
+a {    font-size: 20px !important;    
+       font-family: "Shippori Antique B1", sans-serif !important;
+       font-weight: 400 !important;
+       font-style: normal !important;
+}
+
+h4 {   font-family: "Shippori Antique B1", sans-serif;
+       font-weight: 400;
+       font-style: normal}
+
+h5 {   font-family: "Inter", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 600;
+       font-style:normal;}
+
+h6 {   font-family: "Inter", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 500;
+       font-style: normal;}
+
+p {   font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;}
+
+button{   font-size: 15px; 
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;}
 
 /* Video Hero */
 /* full screen */
