@@ -1,4 +1,4 @@
-/* CSS Variables */
+/* CSS Variables*/
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
@@ -7,8 +7,6 @@
     --pale-color-white: white; /* White */ 
     --pale-color-grey: #E8E9EB; /* Grey */ 
     --pale-color-blue: #e7f6ff; /* Pale blue */    
-    --highlight-color:; /*  */
-    --highlight-color-light: ; /*  */
 }
 
 /* Heading Font */
@@ -48,7 +46,6 @@ h6 {   margin-top: 6px;
        font-style: normal;}
 
 p {   font-family: "Inter", sans-serif;
-      font-optical-sizing: auto;
       font-weight: 400;
       font-style: normal;}
 
@@ -238,7 +235,7 @@ padding-bottom: 0;
 }
 
 .text-small
-{font-size: 10px; !important}
+{font-size: 10px  !important;}
 
 /* social media footer hr */
 .socialmedia-footer-hr {
